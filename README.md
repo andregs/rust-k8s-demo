@@ -1,7 +1,7 @@
 # README
 ## Rust App on Kubernetes via Skaffold & Cloud Native Buildpacks
 
-![Watch Demo](./doc/demo.mp4)
+https://user-images.githubusercontent.com/712092/162587571-dae3c849-0b28-4b50-b220-ed81d805639e.mp4
 
 1. Create simple hello world app.
 2. Create app deployment manifest:

@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: ferris-k8s
+  name: ferris-k8s
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ferris-k8s
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: ferris-k8s
+    spec:
+      containers:
+      - image: andregs/ferris-k8s
+        name: ferris-k8s
+        resources: {}
+status: {}
